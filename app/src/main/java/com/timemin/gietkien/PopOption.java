@@ -45,6 +45,8 @@ public class PopOption extends Activity {
                 }
             }
         });
+
+
         final Switch switchbuttonVibrate;
         switchbuttonVibrate = (Switch) this.findViewById(R.id.swVibrate);
         switchbuttonVibrate.setChecked(true);
